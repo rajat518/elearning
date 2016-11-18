@@ -1,0 +1,146 @@
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Easy Learning</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="menu">
+	<ul>
+		<li class="first">
+                <a href="index.html" id="menu1" accesskey="1" title="">Homepage</a></li>
+		<li><a href="2css.html" id="menu2" accesskey="2" title="">CSS</a></li>
+		<li><a href="1html.html" id="menu3" accesskey="3" title="">HTML</a></li>
+		<li><a href="4javascript.html" id="menu4" accesskey="4" title="">JavaScript</a></li>
+<li><a href="index.html" id="menu5" accesskey="2" title="">logout</a></li>
+	        
+</ul>
+</div>
+<div id="logo">
+	
+	
+</div>
+
+
+<div id="content">
+	<div id="colA">
+		<div id="welcome" class="boxedA">
+			<h2>Strings</h2>
+			 
+		<p>They are sequences of characters, like "PHP supports string operations".
+
+NOTE: Built-in string functions is given in function reference PHP String Functions
+
+Following are valid examples of string
+
+$string_1 = "This is a string in double quotes";
+$string_2 = "This is a somewhat longer, singly quoted string";
+$string_39 = "This string has thirty-nine characters";
+$string_0 = ""; // a string with zero characters
+Singly quoted strings are treated almost literally, whereas doubly quoted strings replace variables with their values as well as specially interpreting certain character sequences.
+
+<?
+$variable = "name";
+$literally = 'My $variable will not print!\\n';
+print($literally);
+$literally = "My $variable will print!\\n";
+print($literally);
+?>
+This will produce following result:
+
+My $variable will not print!\n
+My name will print
+There are no artificial limits on string length - within the bounds of available memory, you ought to be able to make arbitrarily long strings.
+
+Strings that are delimited by double quotes (as in "this") are preprocessed in both the following two ways by PHP:
+
+Certain character sequences beginning with backslash (\) are replaced with special characters
+
+Variable names (starting with $) are replaced with string representations of their values.
+
+The escape-sequence replacements are:
+
+\n is replaced by the newline character
+
+\r is replaced by the carriage-return character
+
+\t is replaced by the tab character
+
+\$ is replaced by the dollar sign itself ($)
+
+\" is replaced by a single double-quote (")
+
+\\ is replaced by a single backslash (\)
+
+String Concatenation Operator
+
+To concatenate two string variables together, use the dot (.) operator:
+
+<?php
+$string1="Hello World";
+$string2="1234";
+echo $string1 . " " . $string2;
+?>
+This will produce following result:
+
+Hello World 1234
+If we look at the code above you see that we used the concatenation operator two times. This is because we had to insert a third string.
+
+Between the two string variables we added a string with a single character, an empty space, to separate the two variables.
+Using the strlen() function
+
+The strlen() function is used to find the length of a string.
+
+Let's find the length of our string "Hello world!":
+
+<?php
+echo strlen("Hello world!");
+?>
+This will produce following result:
+
+12
+The length of a string is often used in loops or other functions, when it is important to know when the string ends. (i.e. in a loop, we would want to stop the loop after the last character in the string)
+
+Using the strpos() function
+
+The strpos() function is used to search for a string or character within a string.
+
+If a match is found in the string, this function will return the position of the first match. If no match is found, it will return FALSE.
+
+Let's see if we can find the string "world" in our string:
+
+<?php
+echo strpos("Hello world!","world");
+?>
+This will produce following result:
+
+6
+As you see the position of the string "world" in our string is position 6. The reason that it is 6, and not 7, is that the first position in the string is 0, and not 1.
+
+</p>
+		</div>
+</div>
+	
+<div id="colB">
+		<div class="boxedB">
+			<h2>PHP</h2>
+			<ul>
+				<li><a href="19.html">Environment</a></li>
+				<li><a href="20.html">Syntax Overview</a></li>
+				<li><a href="21.html">Variable Types</a></li>
+				<li><a href="22.html">Constants</a></li>
+				<li><a href="23.html">Operator Types</a></li>
+				<li><a href="24.html">Decision Making</a></li>
+				<li><a href="25.html">Loop Types</a></li>
+				<li><a href="26.html">Arrays</a></li>
+				<li><a href="27.html">Strings</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	
+</div>
+</body>
+</html>

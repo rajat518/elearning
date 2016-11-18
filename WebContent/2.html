@@ -1,0 +1,94 @@
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Easy Learning</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="menu">
+	<ul>
+		<li class="first">
+                <a href="index.html" id="menu1" accesskey="1" title="">Homepage</a></li>
+		<li><a href="2css.html" id="menu2" accesskey="2" title="">CSS</a></li>
+		<li><a href="3php.html" id="menu3" accesskey="3" title="">PHP</a></li>
+		<li><a href="4javascript.html" id="menu4" accesskey="4" title="">JavaScript</a></li>
+<li><a href="index.html" id="menu5" accesskey="2" title="">logout</a></li>
+	        
+</ul>
+</div>
+<div id="logo">
+	
+	
+</div>
+
+
+<div id="content">
+	<div id="colA">
+		<div id="welcome" class="boxedA">
+			<h2>Tags & Elements</h2>
+			 
+		<p>Tags
+
+The basic structure of an HTML document includes tags, which surround content and apply meaning to it.
+
+Change your document so that it looks like this:
+
+
+<--<!DOCTYPE html>
+<html>
+<body>
+    This is my first web page
+</body>
+</html>-->
+Now save the document again, go back to the web browser and reload the page.
+
+The appearance of the page will not have changed at all, but the purpose of HTML is to apply meaning, not presentation, and this example has now defined some fundamental elements of a web page.
+
+The first line on the top, <!DOCTYPE html>, is a document type declaration and it lets the browser know which flavor of HTML you’re using (HTML5, in this case). It’s very important to stick this in - If you don’t, browsers will assume you don’t really know what you’re doing and act in a very peculiar way.
+
+To get back to the point, <html> is the opening tag that kicks things off and tells the browser that everything between that and the </html> closing tag is an HTML document. The stuff between <body> and </body> is the main content of the document that will appear in the browser window.
+
+Closing tags
+
+The <</body>> and </html> put a close to their respective elements (more on elements in a moment).
+
+Not all tags have closing tags like this (<html></html>) some tags, which do not wrap around content will close themselves. The line-break tag for example, looks like this : <br> - a line break doesn’t hold any content so the tag merrily sits by its lonely self. We will come across these examples later. All you need to remember is that all tags with content between them should be closed, in the format of opening tag ? content ? closing tag. It isn’t, strictly speaking, always a requirement, but it’s a convention we’re using in these tutorials because it’s good practice that results in cleaner, easier to understand code.
+
+You might come across “self-closing” tags, whereby a br tag, for example, will look like “<br />” instead of simply “<br>”. This is a remnant of XHTML, a form of HTML based on another markup language called XML. HTML5 is much more chilled out than XHTML and will be happy with either format. Some developers prefer one way, some prefer the other. We tossed a coin and decided to stick with the simpler version.
+
+Attributes
+
+Tags can also have attributes, which are extra bits of information. Attributes appear inside the opening tag and their values sit inside quotation marks. They look something like <tag attribute="value">Margarine</tag>. We will come across tags with attributes later.
+
+Once again, quotation marks aren’t always essential but it is a good-practice convention HTML Dog uses for consistency and clarity. We suggest you do the same.
+
+Elements
+
+Tags tend not to do much more than mark the beginning and end of an element. Elements are the bits that make up web pages. You would say, for example, that everything that is in between (and includes) the <body> and </body> tags is the body element. As another example, whereas “<title>” and “</title>” are tags, “<title>Rumple Stiltskin</title>” is a title element.
+</p>
+		</div>
+</div>
+	<div id="colB">
+		<div class="boxedB">
+			<h2>Html</h2>
+			<ul>
+				<li><a href="1.html">Getting Started</a></li>
+				<li><a href="2.html">Tags & Elements</a></li>
+				<li><a href="3.html">Page Titles</a></li>
+				<li><a href="4.html">Paragraphs</a></li>
+				<li><a href="5.html">Headings</a></li>
+				<li><a href="6.html">Lists</a></li>
+				<li><a href="7.html">Tables</a></li>
+				<li><a href="8.html">Images</a></li>
+				<li><a href="9.html">Forms</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	
+</div>
+</body>
+</html>

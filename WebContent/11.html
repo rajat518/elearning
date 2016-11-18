@@ -1,0 +1,83 @@
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Easy Learning</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="menu">
+	<ul>
+		<li class="first">
+                <a href="index.html" id="menu1" accesskey="1" title="">Homepage</a></li>
+		<li><a href="1html.html" id="menu2" accesskey="2" title="">HTML</a></li>
+		<li><a href="3php.html" id="menu3" accesskey="3" title="">PHP</a></li>
+		<li><a href="4javascript.html" id="menu4" accesskey="4" title="">JavaScript</a></li>
+<li><a href="index.html" id="menu5" accesskey="2" title="">logout</a></li>
+	        
+</ul>
+</div>
+<div id="logo">
+	
+	
+</div>
+
+
+<div id="content">
+	<div id="colA">
+		<div id="welcome" class="boxedA">
+			<h2>Selectors,Properties and Values</h2>
+			 <p>Embedded CSS - The style Element:
+You can put your CSS rules into an HTML document using the style element. This tag is placed inside head.../head tags. Rules defined using this syntax will be applied to all the elements available in the document. Here is the generic syntax: head> style type="text/css" media="..."> Style Rules ............ </style> </head>
+Attributes:
+Attributes associated with style elements are: Attribute Value Description type text/css Specifies the style sheet language as a content-type (MIME type). This is required attribute. media screen tty tv projection handheld print braille aural all Specifies the device the document will be displayed on. Default value is all. This is optional attribute.
+Example:
+Following is the example of embed CSS based on above syntax: head style type="text/css" media="all"> h1{ color: #36C; } /style /head
+Inline CSS - The style Attribute:
+You can use style attribute of any HTML element to define style rules. These rules will be applied to that element only. Here is the generic syntax: <element style="...style rules....">
+Attributes: Attribute Value Description style style rules The value of style attribute is a combination of style declarations separated by semicolon (;).
+Example:
+Following is the example of inline CSS based on above syntax: h1 style ="color:#36C;" This is inline CSS /h1
+This will produce following result: This is inline CSS
+External CSS - The link Element:
+The link element can be used to include an external stylesheet file in your HTML document.
+An external style sheet is a separate text file with .css extension. You define all the Style rules within this text file and then you can include this file in any HTML document using link> element.
+Here is the generic syntax of including external CSS file: head link type="text/css" href="..." media="..." /> /head>
+Attributes:
+Attributes associated with style> elements are: Attribute Value Description type text/css Specifies the style sheet language as a content-type (MIME type). This attribute is required. href URL Specifies the style sheet file having Style rules. This attribute is a required. media screen tty tv projection Specifies the device the document will be displayed on. Default value is all. This is optional attribute.
+Tutorials Point, Simply Easy Learning
+handheld print braille aural all
+Example:
+Consider a simple style sheet file with a name mystyle.css having the following rules: h1, h2, h3 { color: #36C; font-weight: normal; letter-spacing: .4em; margin-bottom: 1em; text-transform: lowercase; }
+Now you can include this file mystyle.css in any HTML document as follows: head> link type="text/css" href="mystyle.css" media="all" /> /head>
+Imported CSS - @import Rule:
+@import is used to import an external stylesheet in a manner similar to the link> element. Here is the generic syntax of @import rule. head> <@import "URL"; /head
+Here URL is the URL of the style sheet file having style rules. You can use another syntax as well: head <@import url("URL"); /head
+Example:
+Following is the example showing you how to import a style sheet file into HTML document: head> @import "mystyle.css"; /head>
+CSS Rules Overriding:
+We have discussed four ways to include style sheet rules in a an HTML document. Here is the rule to override any Style Sheet Rule.</p>	</div>
+</div>
+	
+<div id="colB">
+		<div class="boxedB">
+			<h2>css</h2>
+			<ul>
+				<li><a href="10.html">Applying CSS</a></li>
+				<li><a href="11.html">Selectors,Properties and Values</a></li>
+				<li><a href="12.html">Colors</a></li>
+				<li><a href="13.html">Text</a></li>
+				<li><a href="14.html">Margins and Padding</a></li>
+				<li><a href="15.html">Borders</a></li>
+				<li><a href="16.html">Grouping</a></li>
+				<li><a href="17.html">Padding</a></li>
+				<li><a href="18.html">Pseudo Classes</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	
+</div>
+</body>
+</html>

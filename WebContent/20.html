@@ -1,0 +1,109 @@
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Easy Learning</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="menu">
+	<ul>
+		<li class="first">
+                <a href="index.html" id="menu1" accesskey="1" title="">Homepage</a></li>
+		<li><a href="2css.html" id="menu2" accesskey="2" title="">CSS</a></li>
+		<li><a href="1html.html" id="menu3" accesskey="3" title="">HTML</a></li>
+		<li><a href="4javascript.html" id="menu4" accesskey="4" title="">JavaScript</a></li>
+<li><a href="index.html" id="menu5" accesskey="2" title="">logout</a></li>
+	        
+</ul>
+</div>
+<div id="logo">
+	
+	
+</div>
+
+
+<div id="content">
+	<div id="colA">
+		<div id="welcome" class="boxedA">
+			<h2>Syntax Overview</h2>
+			 
+		<p><b>Escaping to PHP:</b>
+
+The PHP parsing engine needs a way to differentiate PHP code from other elements in the page. The mechanism for doing so is known as 'escaping to PHP.' There are four ways to do this:
+
+Canonical PHP tags:
+
+The most universally effective PHP tag style is:
+&lt;?php...?&gt;<br />
+If you use this style, you can be positive that your tags will always be correctly interpreted.
+
+<b>Short-open (SGML-style) tags:</b>
+
+Short or short-open tags look like this:
+&lt;?...?&gt;<br />
+<br />
+Short tags are, as one might expect, the shortest option You must do one of two things to enable PHP to recognize the tags:
+
+Choose the --enable-short-tags configuration option when you're building PHP.
+
+Set the short_open_tag setting in your php.ini file to on. This option must be disabled to parse XML with PHP because the same syntax is used for XML tags.
+
+<b>ASP-style tags:</b>
+
+ASP-style tags mimic the tags used by Active Server Pages to delineate code blocks. ASP-style tags look like this:
+&lt;%...%&gt;<br />
+<br />
+To use ASP-style tags, you will need to set the configuration option in your php.ini file.
+
+HTML script tags:
+
+HTML script tags look like this:
+&lt;script language="PHP"&gt;...&lt;/script&gt;<br />
+<br />
+<br />
+<b>Commenting PHP Code:</b>
+
+A comment is the portion of a program that exists only for the human reader and stripped out before displaying the programs result. There are two commenting formats in PHP:
+
+Single-line comments: They are generally used for short explanations or notes relevant to the local code. Here are the examples of single line comments.
+&lt;?<br />
+# This is a comment, and<br />
+# This is the second line of the comment<br />
+// This is a comment too. Each style comments only<br />
+print "An example with single line comments";<br />
+?&gt;<br />
+<br />
+<br />
+<br />
+
+
+
+
+
+</p>
+		</div>
+</div>
+	
+<div id="colB">
+		<div class="boxedB">
+			<h2>PHP</h2>
+			<ul>
+				<li><a href="19.html">Environment</a></li>
+				<li><a href="20.html">Syntax Overview</a></li>
+				<li><a href="21.html">Variable Types</a></li>
+				<li><a href="22.html">Constants</a></li>
+				<li><a href="23.html">Operator Types</a></li>
+				<li><a href="24.html">Decision Making</a></li>
+				<li><a href="25.html">Loop Types</a></li>
+				<li><a href="26.html">Arrays</a></li>
+				<li><a href="27.html">Strings</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	
+</div>
+</body>
+</html>
